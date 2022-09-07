@@ -1,0 +1,19 @@
+<h1>Bem vindo</h1>
+<p> <strong>Data:<strong> <%= date_br(Date.today) %>
+
+<ul>
+    <li>
+    <%= link_to "Cadastro de Moedas", "/coins" %>
+    </li> 
+</ul>
+
+<p>
+    Você está em ambiente de <strong> <%= ambiente_rails %> </strong>
+</p>
+
+<p>
+    O seu nome é <%= @meu_nome %>
+</p>
+<p>
+    O nome do curso é <%= @curso %>
+</p>
