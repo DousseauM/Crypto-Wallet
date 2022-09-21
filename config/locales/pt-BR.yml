@@ -1,0 +1,14 @@
+pt-Br:
+  actual_locale: "Português do Brasil"
+  hello: "Olá mundo"
+  links:
+    edit: "Editar"
+    show: "Mostrar"
+    delete: "Deletar"
+  confirm:
+    dconfirm: "Você tem certeza?"
+  time:
+    formats:
+      default: "%d/%m/%Y"
+      short: "%b %d"
+      long: "%B %d, %Y"

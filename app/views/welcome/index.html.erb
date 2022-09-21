@@ -1,11 +1,15 @@
-<h1>Bem vindo</h1>
-<p> <strong>Data:<strong> <%= date_br(Date.today) %>
+<p> 
+    <%= link_to 'Português', root_path(locale: 'pt-BR') %>
+</p>
+<p>
+    <%= link_to 'English', root_path(locale: 'en') %>
+</p>
 
-<ul>
-    <li>
-    <%= link_to "Cadastro de Moedas", "/coins" %>
-    </li> 
-</ul>
+<h1>Bem vindo</h1>
+<p> O idioma usado nessa aplicação é: <%= t('actual_locale') %></p>
+<p> <strong>Data:</strong> <%= (Date.today) %> </p>
+<p><%= t('hello') %></p>
+<%= render 'menu' %>
 
 <p>
     Você está em ambiente de <strong> <%= ambiente_rails %> </strong>
