@@ -7,7 +7,7 @@
 
 <h1>Bem vindo</h1>
 <p> O idioma usado nessa aplicação é: <%= t('actual_locale') %></p>
-<p> <strong>Data:</strong> <%= (Date.today) %> </p>
+<p> <strong>Data:</strong> <%= I18n.l(Date.today) %> </p>
 <p><%= t('hello') %></p>
 <%= render 'menu' %>
 

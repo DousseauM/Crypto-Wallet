@@ -8,7 +8,7 @@ class ApplicationController < ActionController::Base
 
         if cookies[:locale]
             if I18n.locale != cookies[:locale]
-                I18n.locale != cookies[:locale]
+                I18n.locale = cookies[:locale]
             end
         end
     end
