@@ -1,4 +1,4 @@
-'pt-Br':
+'pt-BR':
   activerecord:
     models:
       coin: 
@@ -10,7 +10,7 @@
     attributes:
       coin:
         id: Código 
-        description: Descrição 
+        description: "Descrição" 
         acronym: Sigla
         url_image: URL da Imagem
         mining_type: Tipo de Mineração
@@ -19,8 +19,8 @@
         created_at: Criado em
       mining_type:
         id: Código 
-        description: Descrição 
-        acronym: Sigla
+        description: "Descrição" 
+        acronym: "Sigla"
         updated_at: Atualizado em 
         created_at: Criado em
 

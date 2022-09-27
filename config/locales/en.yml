@@ -31,10 +31,40 @@
 
 en:
   actual_locale: "English (International  )"
-  hello: "Hello world"
+  welcome: "Welcome!"
+  messages:
+    welcome: "This is the Crypto Wallet, an app that you can register and keep up with your cryptocoins."
+    menu: "To star, choose an option below"
+  coin: "Coin"
+  miningtypes: "Mining Type"
+  new coin: "New Coin"
+  New Mining Type: "New Mining Type"
+  editing:
+    coin: "Editing coin"
+    miningtypes: "Editing mining type"
+  show: "Show"
+  back: "Back"
+  hello: "Hello World"
   links:
     edit: "Edit"
     show: "Show"
     delete: "Delete"
   confirm:
     dconfirm: "Are you sure?"
+  attributes:
+      coin:
+        id: Código 
+        description:  description
+        acronym: acronym
+        url_image: URL da Imagem
+        mining_type: Tipo de Mineração
+        mining_type_id: ID do Tipo de Mineração
+        updated_at: Atualizado em 
+        created_at: Criado em
+      mining_type:
+        one:
+        id: Código 
+        description: description 
+        acronym: acronym
+        updated_at: Atualizado em 
+        created_at: Criado em
