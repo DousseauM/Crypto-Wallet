@@ -5,21 +5,13 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+- Ruby version 2.7
 
-* System dependencies
+Carteira de Criptomoeda em Ruby
 
-* Configuration
+#Como rodar
+Estando no seu diretório execute blunde install para instalar as dependências necesárias e depois execute rails s para abrir um servidor e depois siga a url indicada.
 
-* Database creation
+- ...
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 # Crypto-Wallet
